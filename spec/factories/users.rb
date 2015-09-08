@@ -3,6 +3,10 @@ FactoryGirl.define do
     email 'test@example.com'
     password 'password'
 
+    trait :admin do
+      role 'admin'
+    end
+
   end
 
 end
